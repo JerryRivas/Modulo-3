@@ -1,0 +1,83 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: #61122f;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	color: #FFFDDA;
+}
+
+.navbar-brand p {
+	color: #61122f;
+	font-size: 2em;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#nav-list a {
+	color: #61122f;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #FFFDDA;
+}
+
+#titulo {
+	margin-bottom: 30px;
+	color: #FFFDDA;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+h3 {
+	color: #61122f;
+}
+
+.salto {
+	color: #f6b319;
+	text-decoration: none;
+}
+
+.row > div > article {
+	background-color: #FFFDDA;
+	text-align: justify;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: black;
+}
+
+/*** Desktop devices only ***/
+@media (min-width:1200px) {
+	.row > div > article {
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+
+/*** Tablet devices only ***/
+@media (min-width:768px) and (max-width: 1199px) {
+	.row > div > article {
+		width: 80%;
+		margin: 0px 0px 0px 0px;
+	}
+
+/*** Mobile devices only ***/
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 50%;
+		margin: 0px 0px 0px 0px;
+	}
+}
